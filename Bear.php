@@ -23,4 +23,9 @@ class Bear extends Animal implements PredatorInterface, HerbivorousInterface
     {
         //
     }
+
+    public function move()
+    {
+        return "I can just walk";
+    }
 }

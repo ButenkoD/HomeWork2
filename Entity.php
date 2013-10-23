@@ -24,7 +24,7 @@ abstract class Entity
 
     public function getColor()
     {
-        return $this->color;
+        return "is " . $this->color;
     }
 
     public function getWeight()

@@ -9,7 +9,7 @@
 
 //namespace Animal;
 
-use PredatorInterface;
+//use PredatorInterface;
 
 
 class Cat extends Animal implements PredatorInterface

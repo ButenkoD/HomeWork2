@@ -21,7 +21,7 @@ abstract class Bird extends Entity
 
     public function getWing()
     {
-        return $this->wing;
+        return "has " . $this->wing . "wings";
     }
 
     public function fly()
