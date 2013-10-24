@@ -12,7 +12,7 @@
 //use PredatorInterface;
 
 
-class Cat extends Animal implements PredatorInterface
+class Cat extends AbstractAnimal implements PredatorInterface
 {
     public function hunt()
     {

@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-class Eagle extends Bird implements PredatorInterface
+class Eagle extends AbstractBird implements PredatorInterface
 {
     public function hunt()
     {

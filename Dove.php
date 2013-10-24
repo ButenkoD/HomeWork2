@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-class Dove extends Bird implements HerbivorousInterface
+class Dove extends AbstractBird implements HerbivorousInterface
 {
     public function feed()
     {

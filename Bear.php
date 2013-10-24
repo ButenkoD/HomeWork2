@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-class Bear extends Animal implements PredatorInterface, HerbivorousInterface
+class Bear extends AbstractAnimal implements PredatorInterface, HerbivorousInterface
 {
     public function hunt()
     {
